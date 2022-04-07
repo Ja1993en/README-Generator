@@ -1,27 +1,27 @@
 
-  # j
+  # GOOD README Generator
+ <a href="https://img.shields.io/badge/License-MIT-brightgreen"><img scr="https//img.shields.io/badge/License-$data.license}-brightgreen"></a>
 
 
-  ##📄 Description
-  s
+  ##Description
+  Created ths README Generator to create README files in the command-line
 
 
 # Table of Content
--[description](#description)
 -[installation](#installation)
 -[usage](#usage)
--[licenses](#licenses)
 -[contribution](#contribution)
+-[licenses](#licenses)
+-
 -[test](#test)
--[username](#username)
--[profile](#profile)
+-[Questions(#questions)
 
 
 ##Installation 
+Inquirer 
 
-
-##🎮 Usage
-fg
+##Usage
+get clone. Cd into new dir. npm i inquirer. enter node index.js
 
 
 ##Contributing
@@ -31,12 +31,12 @@ undefined
 undefined
 
 ##License 
-MIT
+Licensed under MIT License
 
 ##Questions
-sd
-f
-Ja1993en
+Jalen Mcneal
+Any futher questions you can emailme at mcneal.jalen@yahoo.com
+You can visit my GitHub respositories atJa1993en
 
 <! -- GutHub's Markdown reference links -->
 

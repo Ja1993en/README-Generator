@@ -6,6 +6,8 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [];
 
+
+// questions the innput.value will be sent to the Markdown
 inquirer.prompt([
     {
         type: "input",
@@ -62,7 +64,7 @@ inquirer.prompt([
         name:'license',
         choices: ['MIT', 'GPLv3', 'GPL'],
     },
-])
+])// write the files to the README
     .then((data) => {
         fs.writeFile('README.md', generateMarkdown(data), (err) => {
             if(err) {
@@ -74,8 +76,4 @@ inquirer.prompt([
     });
 
 
-    // {
-    //     type: "list",
-    //     message: ''
-    //     name: ''
-    // },
+    

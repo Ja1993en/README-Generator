@@ -1,63 +1,29 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {
-let licenseType = license.license; // i think this is problem #1
-  let yourLicense = ''
-  if(licenseType === 'MIT') {
-    yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
-  } else if (licenseType === 'GPLv3') {
-    yourLicense = `![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)`
-  } else if (licenseType === 'GPL') {
-    yourLicense = `![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)`
-  } else {
-    license.license = "N/A"
-  }
-}
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {
-//   let licenseType = license.license; // i think this is problem #1
-//   let yourLicense = ''
-//   if(licenseType === 'MIT') {
-//     yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
-//   } else if (licenseType === 'GPLv3') {
-//     yourLicense = `![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)`
-//   } else if (licenseType === 'GPL') {
-//     yourLicense = `![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)`
-//   } else {
-//     license.license = "N/A"
-//   }
-// }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
+// Markdown function dynamic display
 function generateMarkdown(data)  {
   return `
   # ${data.heading}
+ <a href="https://img.shields.io/badge/License-${data.license}-brightgreen"><img scr="https//img.shields.io/badge/License-$data.license}-brightgreen"></a>
 
 
-  ##📄 Description
+  ##Description
   ${data.description}
 
 
 # Table of Content
--[description](#description)
 -[installation](#installation)
 -[usage](#usage)
--[licenses](#licenses)
 -[contribution](#contribution)
+-[licenses](#licenses)
+-
 -[test](#test)
--[username](#username)
--[profile](#profile)
+-[Questions(#questions)
 
 
 ##Installation 
 ${data.installation}
 
-##🎮 Usage
+##Usage
 ${data.usage}
 
 
@@ -68,12 +34,12 @@ ${data.contribution}
 ${data.testing}
 
 ##License 
-${data.license}
+Licensed under ${data.license} License
 
 ##Questions
 ${data.author}
-${data.email}
-${data.github}
+Any futher questions you can emailme at ${data.email}
+You can visit my GitHub respositories at${data.github}
 
 <! -- GutHub's Markdown reference links -->
 
