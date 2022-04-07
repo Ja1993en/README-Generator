@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [];
@@ -28,6 +27,7 @@ inquirer.prompt([
         type: "input",
         message: 'How to use it?',
         name: 'usage',
+        default: 'https://github.com/Ja1993en/README-Generator/issues/1#issue-1195934438'
     },
     {
         type:'input',
@@ -60,7 +60,7 @@ inquirer.prompt([
     },
     {
         type: 'list',
-        message: 'License',
+        message: 'Please choose a license for your Project',
         name:'license',
         choices: ['MIT', 'GPLv3', 'GPL'],
     },
