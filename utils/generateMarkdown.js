@@ -3,7 +3,7 @@
 function generateMarkdown(data)  {
   return `
   # ${data.heading}
- <a href="https://img.shields.io/badge/License-${data.license}-brightgreen"><img scr="https//img.shields.io/badge/License-${data.license}-brightgreen"></a>
+ <a href="https://img.shields.io/badge/License-${data.license}-brightgreen"><img scr="https://img.shields.io/badge/License-${data.license}-brightgreen"></a>
 
 
   ## Description 
@@ -25,6 +25,7 @@ function generateMarkdown(data)  {
 ${data.installation}
 
 ## Usage
+video ofterminal and  README 'https://github.com/Ja1993en/README-Generator/issues/1#issue-1195934438'
 
 video of terminal input ${data.usage}
 
