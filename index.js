@@ -60,7 +60,7 @@ inquirer.prompt([
     },
     {
         type: 'list',
-        message: 'Lience',
+        message: 'License',
         name:'license',
         choices: ['MIT', 'GPLv3', 'GPL'],
     },

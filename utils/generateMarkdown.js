@@ -42,7 +42,7 @@ ${data.testingInfo}
 
 Licensed under ${data.license} License
 
-##Questions
+##questions
 
 ${data.author}
 
