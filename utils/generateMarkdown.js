@@ -15,7 +15,6 @@ function generateMarkdown(data)  {
 -[usage](#usage)
 -[contribution](#contribution)
 -[licenses](#licenses)
--
 -[test](#test)
 -[Questions(#questions)
 
@@ -24,14 +23,14 @@ function generateMarkdown(data)  {
 ${data.installation}
 
 ##Usage
-${data.usage}
+video of terminal input ${data.usage}
 
 
 ##Contributing
-${data.contribution}
+${data.Contributors}
 
 ##Tests 
-${data.testing}
+${data.testingInfo}
 
 ##License 
 Licensed under ${data.license} License

@@ -1,10 +1,10 @@
 
-  # GOOD README Generator
+  # GOODREADME Generator
  <a href="https://img.shields.io/badge/License-MIT-brightgreen"><img scr="https//img.shields.io/badge/License-$data.license}-brightgreen"></a>
 
 
   ##Description
-  Created ths README Generator to create README files in the command-line
+  Created this README Generator to create README file in the commmand-line. Will help with my efficiency. I will be able to spend more time on completing the actual project
 
 
 # Table of Content
@@ -18,17 +18,17 @@
 
 
 ##Installation 
-Inquirer 
+inquirer
 
 ##Usage
-get clone. Cd into new dir. npm i inquirer. enter node index.js
+video of terminal input get clone. Cd into new dir. npm inquirer. Enter node index.js
 
 
 ##Contributing
-undefined
+If you would like to contribute to this project you can send a email
 
 ##Tests 
-undefined
+none
 
 ##License 
 Licensed under MIT License
