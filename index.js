@@ -65,9 +65,14 @@ inquirer.prompt([
     },
 ])
     .then((data) => {
-        fs.writeFile('README.md', generateMarkdown(data), (err) => err ? console.log(err) : co
-        );
-    })
+        fs.writeFile('README.md', generateMarkdown(data), (err) => {
+            if(err) {
+                return console.log(err);
+            }
+        
+        });
+    
+    });
 
 
     // {
