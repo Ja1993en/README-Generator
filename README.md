@@ -3,7 +3,7 @@
  <a href="https://img.shields.io/badge/License-MIT-brightgreen"><img scr="https//img.shields.io/badge/License-MIT-brightgreen"></a>
 
 
-  ##Description 
+  ## Description 
 
   Created this README Generator that allow README files to be created in the command-line. This will increase my efficiency. I will be able to spend more time on completing prjects.
 
@@ -17,35 +17,35 @@
 -[questions(#questions)
 
 
-##Installation 
+## Installation 
 
 inquirer
 
-##Usage
+## Usage
 
-video of terminal input video of terminal input get clone. Cd into new dir. npm i inquirer. Enter node index.js
+video of terminal input Get clone. Cd into new dir. npm i inquirer. Enter node index.js
 
 
-##Contributing
+## Contributing
 
 If you would like to contribute to this project you can send a email
 
-##Tests 
+## Tests 
 
 
 none
 
-##License 
+## License 
 
 Licensed under MIT License
 
-##questions
+## questions
 
 Jalen Mcneal
 
 Any futher questions you can emailme at mcneal.jalen@yahoo.com
 
-You can visit my GitHub respositories atJa1993en
+You can visit my GitHub respositories at [Github](https://github.com/Ja1993en)
 
 
 

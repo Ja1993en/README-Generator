@@ -6,7 +6,7 @@ function generateMarkdown(data)  {
  <a href="https://img.shields.io/badge/License-${data.license}-brightgreen"><img scr="https//img.shields.io/badge/License-${data.license}-brightgreen"></a>
 
 
-  ##Description 
+  ## Description 
 
   ${data.description}
 
@@ -20,35 +20,35 @@ function generateMarkdown(data)  {
 -[questions(#questions)
 
 
-##Installation 
+## Installation 
 
 ${data.installation}
 
-##Usage
+## Usage
 
 video of terminal input ${data.usage}
 
 
-##Contributing
+## Contributing
 
 ${data.Contributors}
 
-##Tests 
+## Tests 
 
 
 ${data.testingInfo}
 
-##License 
+## License 
 
 Licensed under ${data.license} License
 
-##questions
+## questions
 
 ${data.author}
 
 Any futher questions you can emailme at ${data.email}
 
-You can visit my GitHub respositories at${data.github}
+You can visit my GitHub respositories at [Github](https://github.com/${data.github})
 
 
 
