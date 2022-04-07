@@ -25,7 +25,7 @@ function generateMarkdown(data)  {
 ${data.installation}
 
 ## Usage
-video ofterminal and  README 'https://github.com/Ja1993en/README-Generator/issues/1#issue-1195934438'
+video if terminal and  README https://github.com/Ja1993en/README-Generator/issues/1#issue-1195934438
 
 video of terminal input ${data.usage}
 
