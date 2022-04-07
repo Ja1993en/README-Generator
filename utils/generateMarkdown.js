@@ -25,7 +25,7 @@ function generateMarkdown(data)  {
 ${data.installation}
 
 ## Usage
-video if terminal and  README ${data.usage}
+video if terminal and  README [video link]${data.usage}
 
 
 ## Contributing
