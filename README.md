@@ -5,7 +5,7 @@
 
   ## Description 
 
-  Created this README Generator that allow REAME files to be created in the comman-line. This will increase my efficiency. I will be able to spend more time focusing on completing projects.
+  Created this README Generator that allow README files to be created in the command-line. This will increase my efficiency. It will allow me to focus more time on completing projects.
 
 
 # Table of Content
@@ -22,7 +22,7 @@
 
 
 ## Usage
-video if terminal and  README https://github.com/Ja1993en/README-Generator/issues/1#issue-1195934438
+video if terminal and  README [video link](https://github.com/Ja1993en/README-Generator/issues/1#issue-1195934438)
 
 
 ## Contributing
