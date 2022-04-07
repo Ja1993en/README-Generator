@@ -14,7 +14,7 @@
 -[contribution](#contribution)
 -[licenses](#licenses)
 -[test](#test)
--[questions(#questions)
+-[questions](#questions)
 
 
 ## Installation 
@@ -23,7 +23,7 @@ inquirer
 
 ## Usage
 
-video of terminal input Get clone. Cd into new dir. npm i inquirer. Enter node index.js
+video of terminal input video of terminal input Get clone. Cd into new dir. npm i inquirer. Enter node index.js
 
 
 ## Contributing
