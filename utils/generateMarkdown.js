@@ -3,10 +3,11 @@
 function generateMarkdown(data)  {
   return `
   # ${data.heading}
- <a href="https://img.shields.io/badge/License-${data.license}-brightgreen"><img scr="https//img.shields.io/badge/License-$data.license}-brightgreen"></a>
+ <a href="https://img.shields.io/badge/License-${data.license}-brightgreen"><img scr="https//img.shields.io/badge/License-${data.license}-brightgreen"></a>
 
 
-  ##Description
+  ##Description 
+
   ${data.description}
 
 
@@ -16,31 +17,40 @@ function generateMarkdown(data)  {
 -[contribution](#contribution)
 -[licenses](#licenses)
 -[test](#test)
--[Questions(#questions)
+-[questions(#questions)
 
 
 ##Installation 
+
 ${data.installation}
 
 ##Usage
+
 video of terminal input ${data.usage}
 
 
 ##Contributing
+
 ${data.Contributors}
 
 ##Tests 
+
+
 ${data.testingInfo}
 
 ##License 
+
 Licensed under ${data.license} License
 
 ##Questions
+
 ${data.author}
+
 Any futher questions you can emailme at ${data.email}
+
 You can visit my GitHub respositories at${data.github}
 
-<! -- GutHub's Markdown reference links -->
+
 
 
 `;

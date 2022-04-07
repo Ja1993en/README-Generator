@@ -1,10 +1,11 @@
 
-  # GOOD README GENERATOR
- <a href="https://img.shields.io/badge/License-MIT-brightgreen"><img scr="https//img.shields.io/badge/License-$data.license}-brightgreen"></a>
+  # GOODREADME Generator
+ <a href="https://img.shields.io/badge/License-MIT-brightgreen"><img scr="https//img.shields.io/badge/License-MIT-brightgreen"></a>
 
 
-  ##Description
-  Created this project that allows me to created REAME filed in command-line. Will help my overall efficiency. I will be able to spend more time on completing projects
+  ##Description 
+
+  Created this README Generator that allow README files to be created in the command-line. This will increase my efficiency. I will be able to spend more time on completing prjects. 
 
 
 # Table of Content
@@ -13,30 +14,39 @@
 -[contribution](#contribution)
 -[licenses](#licenses)
 -[test](#test)
--[Questions(#questions)
+-[questions(#questions)
 
 
 ##Installation 
+
 inquirer
 
 ##Usage
-video of terminal input get clone. Cd into new dir. nom inquirer. Enter node index.js 
+
+video of terminal input get clone. Cd into new dir. npm i inquirer. Enter node index.js
 
 
 ##Contributing
-If you want to contibute to this project you can send a email
+
+If you would like to contribute to this project you can send a email
 
 ##Tests 
+
+
 none
 
 ##License 
+
 Licensed under MIT License
 
 ##Questions
+
 Jalen Mcneal
+
 Any futher questions you can emailme at mcneal.jalen@yahoo.com
+
 You can visit my GitHub respositories atJa1993en
 
-<! -- GutHub's Markdown reference links -->
+
 
 
